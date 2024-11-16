@@ -2,49 +2,123 @@
 .eva-container {
     display: flex;
     flex-direction: row;
-    height: 800px;
+    height: 935.5px;
     width: 100%;
     margin: 0;
     padding: 0;
-    border: 1px solid;
 }
 
 .menu-lateral {
     height: 500px;
     width: 10%;
+    height: 100%;
     background-color: #0D0A3A;
     margin: 2px0;
     padding: 0;
 }
 
 .menu-central {
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     width: 90%;
     margin: 0;
     padding: 0;
+    color: black;
+}
+
+.central-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.primero {
+    height: 20%;
+}
+
+.segundo {
+    height: 80%;
+    border: 2px solid;
+}
+
+.p-bloque {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.s-bloque {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EAE8F0;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 0 5px rgb(0, 0, 0, 0.3);
+}
+
+.b-item {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blueviolet;
+    width: 70%;
+
+    background-color: #EAE8F0;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.b-item:hover{
+    background-color: #cdc3e6;
 }
 
 .lateral-item {
     display: flex;
     flex-direction: column;
+    color: white;
+    text-decoration: none;
     width: 100%;
-    border: 1px solid;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-eva-item:hover {
+    background-color: crimson;
 }
 
 .img-titulo {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
 
 .lateral-img {
-    width: 100%;
-    border: 1px solid;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
 }
 
 .item-title {
-    width: 100%;
-    border: 1px solid;
+    width: 60%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
+
+
