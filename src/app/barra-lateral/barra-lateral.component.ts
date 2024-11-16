@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import {MatListModule} from '@angular/material/list';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-barra-lateral',
   standalone: true,
-  imports: [MatListModule],
+  imports: [RouterLink],
   templateUrl: './barra-lateral.component.html',
   styleUrl: './barra-lateral.component.scss'
 })
