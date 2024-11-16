@@ -2,8 +2,49 @@
 .eva-container {
     display: flex;
     flex-direction: row;
-    height: 500px;
+    height: 800px;
     width: 100%;
-    border: 5px solid;
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
 }
 
+.menu-lateral {
+    height: 500px;
+    width: 10%;
+    background-color: #0D0A3A;
+    margin: 2px0;
+    padding: 0;
+}
+
+.menu-central {
+    height: 500px;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.lateral-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid;
+}
+
+.img-titulo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.lateral-img {
+    width: 100%;
+    border: 1px solid;
+}
+
+.item-title {
+    width: 100%;
+    border: 1px solid;
+}

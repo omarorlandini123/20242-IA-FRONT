@@ -6,6 +6,7 @@ import { ConsejosComponent } from './consejos/consejos.component';
 import { EnlacesComponent } from './enlaces/enlaces.component';
 import { PreguntasComponent } from './preguntas/preguntas.component';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { InicioComponent } from '../inicio/inicio.component';
 
 @Component({
   selector: 'app-recursos-ayuda',
@@ -18,7 +19,8 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
             PreguntasComponent,
             RouterLink,
             RouterOutlet,
-            RouterLinkActive
+            RouterLinkActive,
+            InicioComponent
   ],
   templateUrl: './recursos-ayuda.component.html',
   styleUrl: './recursos-ayuda.component.scss'

@@ -12,6 +12,7 @@ import { MenuDiagnosticoComponent } from './menu-diagnostico/menu-diagnostico.co
 import { InicioComponent } from './inicio/inicio.component';
 
 export const routes: Routes = [
+    { path: '', redirectTo:'inicio', pathMatch: 'full'},
     { path: 'home', component: AppComponent },
     { path: 'recursos-ayuda', component: RecursosAyudaComponent },
     { path: 'preguntas', component: PreguntasComponent },

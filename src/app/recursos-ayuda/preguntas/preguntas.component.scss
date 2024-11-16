@@ -13,9 +13,9 @@
     text-align: center;
     justify-items: center;
     width: auto;
-    height: auto;
+    height: 0;
     margin: 0;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #0D0A3A;
@@ -34,10 +34,11 @@
 .card {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 150px;
+    width: 80%;
+    height: 112PX;
     margin: 5px;
     margin-left: 20px;
+    margin-bottom: 5PX;
     align-items: start;
     justify-content: start;
     background-color: #A1C2E8;
@@ -46,7 +47,7 @@
 }
 
 .card-body {
-    height: 250px;
+    height: auto;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -70,6 +71,7 @@
     font-size: 20px;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
+    width: 96%;
     padding-top: 0;
     padding-bottom: 5px;
     margin: 0;
@@ -77,12 +79,13 @@
 }
 
 .back-card {
-    width: 120px;
-    height: 55px;
+    width: 200px;
+    height: 50px;
     margin: 10px;
     padding: 0;
-    margin-left: 2150px;
-    margin-top: 50px;
+    margin-left: 1620px;
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: #4268E4;
     border-radius: 40px;
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);

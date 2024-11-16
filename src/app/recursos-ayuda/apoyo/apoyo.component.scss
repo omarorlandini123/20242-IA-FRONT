@@ -15,7 +15,7 @@
     width: auto;
     height: auto;
     margin: 0;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #0D0A3A;
@@ -25,7 +25,7 @@
 .itemImg {
     display: flex;
     width: 100%;
-    height: 25%;
+    height: 22%;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -46,13 +46,13 @@
     justify-content: center;
     margin: 0;
     padding: 0;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .card {
     display: flex;
-    width: 180PX;
-    height: 90px;
+    width: 160PX;
+    height: 60px;
     margin: 0;
     padding: 0;
     margin-top: 10PX;
@@ -64,7 +64,7 @@
 }
 
 .card-body {
-    font-size: 30PX;
+    font-size: 25PX;
     font-weight: bolder;
     margin: 0;
     padding: 0;
@@ -75,9 +75,9 @@
 .text-title {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -86,15 +86,18 @@
 }
 
 .back-card {
-    width: 140px;
-    height: 35px;
-    margin: 10px;
-    padding: 10px;
-    margin-left: 2100px;
-    margin-top: 65px;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-left: 1620px;
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: #4268E4;
     border-radius: 40px;
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
 }
 
 .back-card:hover {
@@ -103,9 +106,11 @@
 
 .back-card-text {
     color: white;
-    padding-top: 6px;
+    padding-top: 11px;
     font-size: 24px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
