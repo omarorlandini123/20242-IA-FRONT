@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.barra-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #035abe;
+    padding: 5px 5px;
+    margin: auto;
+}
+
+.menu-izquierda  {
+    display: flex;
+    gap: 10PX;
+    padding-left: 5px;
+    align-items: center;
+}
+
+.img-perfil {
+    height: 50px;
+    width: 50px;
+    margin-left: 5px 5px;
+}
+
+.l-unimental {
+    text-decoration: none;
+    color: black;
+    font-size: 50PX;
+}
+
+.menu-derecha {
+    display: flex;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.item {
+    text-decoration: none;
+    color: black;
+    font-size: 35PX;
+}
