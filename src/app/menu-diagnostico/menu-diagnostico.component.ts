@@ -21,7 +21,8 @@ import { BarraLateralComponent } from '../barra-lateral/barra-lateral.component'
     AislamientoComponent, 
     ProcrastinacionComponent,
     RendimientoComponent,
-    BarraLateralComponent
+    BarraLateralComponent,
+    RouterLink
   ],
   templateUrl: './menu-diagnostico.component.html',
   styleUrl: './menu-diagnostico.component.scss'
