@@ -6,8 +6,8 @@ import { ConsejosComponent } from './consejos/consejos.component';
 import { EnlacesComponent } from './enlaces/enlaces.component';
 import { PreguntasComponent } from './preguntas/preguntas.component';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { InicioComponent } from '../inicio/inicio.component';
-
+import { BarraSuperiorComponent } from '../barra-superior/barra-superior.component';
+import { FooterComponent } from '../footer/footer.component';
 @Component({
   selector: 'app-recursos-ayuda',
   standalone: true,
@@ -20,7 +20,9 @@ import { InicioComponent } from '../inicio/inicio.component';
             RouterLink,
             RouterOutlet,
             RouterLinkActive,
-            InicioComponent
+            FooterComponent,
+            BarraSuperiorComponent
+            
   ],
   templateUrl: './recursos-ayuda.component.html',
   styleUrl: './recursos-ayuda.component.scss'

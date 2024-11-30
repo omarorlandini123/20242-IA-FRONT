@@ -21,3 +21,4 @@ describe('BarraLateralComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+  

@@ -1,45 +1,48 @@
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
+/* Estilos de la barra superior */
 .barra-superior {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #035abe;
-    padding: 5px 5px;
-    margin: auto;
+    padding: 10px 40px;
+    background-color: #1b36ad;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-.menu-izquierda  {
+.menu-izquierda {
     display: flex;
-    gap: 10PX;
-    padding-left: 5px;
     align-items: center;
 }
-
 .img-perfil {
-    height: 50px;
-    width: 50px;
-    margin-left: 5px 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
-
 .l-unimental {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
     text-decoration: none;
-    color: black;
-    font-size: 50PX;
 }
-
 .menu-derecha {
     display: flex;
-    gap: 30px;
-    padding-right: 50px;
+    align-items: center;
+}
+.menu-derecha .item {
+    margin-left: 15px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.menu-derecha .item:hover {
+    color: #1abc9c;
 }
 
-.item {
-    text-decoration: none;
-    color: black;
-    font-size: 35PX;
+/* Responsividad */
+@media (max-width: 768px) {
+    .menu-derecha {
+        display: none; /* Ocultar menú en pantallas pequeñas */
+    }
+    /* Puedes agregar un icono de hamburguesa o menú desplegable aquí si lo necesitas */
 }

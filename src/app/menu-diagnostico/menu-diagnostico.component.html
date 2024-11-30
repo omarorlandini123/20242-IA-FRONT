@@ -1,54 +1,52 @@
+<!-- Barra lateral -->
+<div class="menu-lateral">
+    <app-barra-lateral></app-barra-lateral>
+</div>
 
-<div class="eva-container">
-    <div class="menu-lateral">
-        <div class="lateral-item img-titulo">
-            <img src="" alt="" class="lateral-img" alt="logo">
-            <a class="item-title" routerLink="/inicio">UniMental</a>
-        </div>
-        <a class="lateral-item menu-eva-item" routerLink="/inicio">Mi perfil</a>
-        <a class="lateral-item menu-eva-item" routerLink="/inicio">Historial</a>
-        <a class="lateral-item menu-eva-item" routerLink="/inicio">Recuros</a>
-        <a class="lateral-item menu-eva-item" routerLink="/evaluacion">Evaluación</a>
+<!-- Menú central -->
+<div class="menu-central">
+    <div class="central-item primero">
+        <div class="central-title">Diagnóstico Integral Universitario</div>
+        <div class="central-content">Selecciona el área que desea evaluar</div>
     </div>
-    <div class="menu-central">
-        <div class="central-item primero">
-            <div class="central-title">Diagnóstico Integral Universitario</div>
-            <div class="central-content">Selecciona el área que desea evaluar</div>
-        </div>
-        <div class="central-item segundo">
-            <div class="p-bloque">
-                <div class="b-item">
-                    <div class="b-title"><strong>Depresión</strong></div>
-                    <div class="b-content">Evaluación del estado de ánimo y sintomas.</div>
-                    <div class="b-button" routerLink="/depresion">COMENZAR</div>
-                </div>
-                <div class="b-item">
-                    <div class="b-title"><strong>Aislamiento Social</strong></div>
-                    <div class="b-content">Análisis de interacción social y patrones.</div>
-                    <div class="b-button" routerLink="/aislamiento">COMENZAR</div>
-                </div>
-                <div class="b-item">
-                    <div class="b-title"><strong>Rendimiento academico</strong></div>
-                    <div class="b-content">Evaluación del Desempeño Académico.</div>
-                    <div class="b-button" routerLink="/rendimiento">COMENZAR</div>
-                </div>
+
+    <!-- Segundo bloque: Evaluaciones -->
+    <div class="central-item segundo">
+        <div class="p-bloque">
+            <!-- Fila 1: tres bloques -->
+            <div class="b-item">
+                <div class="b-title"><strong>Depresión</strong></div>
+                <div class="b-content">Evaluación del estado de ánimo y síntomas.</div>
+                <div class="b-button" routerLink="/depresion">COMENZAR</div>
             </div>
-            <div class="s-bloque">
-                <div class="b-item">
-                    <div class="b-title"><strong>Grado de Estrés</strong></div>
-                    <div class="b-content">Medición de niveles de estrés.</div>
-                    <div class="b-button" routerLink="/estres">COMENZAR</div>
-                </div>
-                <div class="b-item">
-                    <div class="b-title"><strong>Tipo de Jugador</strong></div>
-                    <div class="b-content">Análisis del perfil del jugador y comportamiento.</div>
-                    <div class="b-button" routerLink="/tipo-jugador">COMENZAR</div>
-                </div>
-                <div class="b-item">
-                    <div class="b-title"><strong>Procrastinación</strong></div>
-                    <div class="b-content">Evaluación de habitos de postergación.</div>
-                    <div class="b-button" routerLink="/procrastinacion">COMENZAR</div>
-                </div>
+            <div class="b-item">
+                <div class="b-title"><strong>Aislamiento Social</strong></div>
+                <div class="b-content">Análisis de interacción social y patrones.</div>
+                <div class="b-button" routerLink="/aislamiento">COMENZAR</div>
+            </div>
+            <div class="b-item">
+                <div class="b-title"><strong>Rendimiento Académico</strong></div>
+                <div class="b-content">Evaluación del desempeño académico.</div>
+                <div class="b-button" routerLink="/rendimiento">COMENZAR</div>
+            </div>
+        </div>
+
+        <div class="s-bloque">
+            <!-- Fila 2: tres bloques -->
+            <div class="b-item">
+                <div class="b-title"><strong>Grado de Estrés</strong></div>
+                <div class="b-content">Medición de niveles de estrés.</div>
+                <div class="b-button" routerLink="/estres">COMENZAR</div>
+            </div>
+            <div class="b-item">
+                <div class="b-title"><strong>Tipo de Jugador</strong></div>
+                <div class="b-content">Análisis del perfil del jugador y comportamiento.</div>
+                <div class="b-button" routerLink="/tipo-jugador">COMENZAR</div>
+            </div>
+            <div class="b-item">
+                <div class="b-title"><strong>Procrastinación</strong></div>
+                <div class="b-content">Evaluación de hábitos de postergación.</div>
+                <div class="b-button" routerLink="/procrastinacion">COMENZAR</div>
             </div>
         </div>
     </div>

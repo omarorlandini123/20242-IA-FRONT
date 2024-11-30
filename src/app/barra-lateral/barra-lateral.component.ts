@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
+
 @Component({
   selector: 'app-barra-lateral',
   standalone: true,
@@ -9,5 +10,9 @@ import { RouterLink } from '@angular/router';
   styleUrl: './barra-lateral.component.scss'
 })
 export class BarraLateralComponent {
+  isClosed = false;
 
+  toggleMenu() {
+    this.isClosed = !this.isClosed;
+  }
 }

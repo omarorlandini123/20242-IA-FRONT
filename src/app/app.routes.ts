@@ -9,7 +9,6 @@ import { EnlacesComponent } from './recursos-ayuda/enlaces/enlaces.component';
 import { AppComponent } from './app.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { MenuDiagnosticoComponent } from './menu-diagnostico/menu-diagnostico.component';
-import { InicioComponent } from './inicio/inicio.component';
 import { EstresComponent } from './menu-diagnostico/estres/estres.component';
 import { AislamientoComponent } from './menu-diagnostico/aislamiento/aislamiento.component';
 import { ProcrastinacionComponent } from './menu-diagnostico/procrastinacion/procrastinacion.component';
@@ -17,6 +16,15 @@ import { TipoJugadorComponent } from './menu-diagnostico/tipo-jugador/tipo-jugad
 import { RendimientoComponent } from './menu-diagnostico/rendimiento/rendimiento.component';
 import { DepresionComponent } from './menu-diagnostico/depresion/depresion.component';
 import { BarraLateralComponent } from './barra-lateral/barra-lateral.component';
+
+import { EvaluacionMComponent } from './evaluacion-m/evaluacion-m.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { PerfilComponent } from './perfil/perfil.component';
+import { ConfiguracionComponent } from './configuracion/configuracion.component';
+import { HistorialComponent } from './historial/historial.component';
+import { InicioDComponent } from './inicio-d/inicio-d.component';
 
 export const routes: Routes = [
     { path: '', redirectTo:'inicio', pathMatch: 'full'},
@@ -30,7 +38,6 @@ export const routes: Routes = [
     { path: 'enlaces', component: EnlacesComponent },
     { path: 'notfound', component: NotfoundComponent },
     { path: 'evaluacion', component: MenuDiagnosticoComponent },
-    { path: 'inicio', component: InicioComponent },
     { path: 'estre', component: EstresComponent },
     { path: 'aislamiento', component: AislamientoComponent },
     { path: 'procrastinacion', component: ProcrastinacionComponent },
@@ -38,4 +45,13 @@ export const routes: Routes = [
     { path: 'rendimiento', component: RendimientoComponent },
     { path: 'depresion', component: DepresionComponent },
     { path: 'lateral', component: BarraLateralComponent },
+
+    { path: 'evaluacion_m', component:EvaluacionMComponent},
+    { path:'inicio', component:InicioComponent},
+    { path:'login', component:LoginComponent},
+    { path:'register', component:RegisterComponent},
+    { path:'perfil', component:PerfilComponent},
+    { path:'configuracion',component:ConfiguracionComponent},
+    { path:'historial', component:HistorialComponent},
+    { path:'inicio_d', component:InicioDComponent}
 ];

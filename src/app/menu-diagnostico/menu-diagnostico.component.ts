@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { AppComponent } from '../app.component';
-import { InicioComponent } from '../inicio/inicio.component';
 import { EstresComponent } from './estres/estres.component';
 import { TipoJugadorComponent } from './tipo-jugador/tipo-jugador.component';
 import { RendimientoComponent } from './rendimiento/rendimiento.component';
@@ -14,7 +13,7 @@ import { BarraLateralComponent } from '../barra-lateral/barra-lateral.component'
   standalone: true,
   imports: [RouterLink, 
     AppComponent, 
-    InicioComponent, 
+    
     EstresComponent, 
     TipoJugadorComponent, 
     RendimientoComponent, 
